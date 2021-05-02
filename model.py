@@ -13,6 +13,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 
+# dadasdsadsadsad
+
 def drop_id_column(df_input):
     df_input.drop(['Id'], axis=1, inplace=True)
     return df_input
